@@ -215,7 +215,7 @@
             </ul>
 
             <div class="card-body">
-              <a href="#" class="card-link">link_1</a>
+              <a href="#" class="card-link" data-toggle="modal"data-target="#siteModal">Clica neste</a>
               <a href="#" class="card-link">link_1</a>
             </div>
           </div>
@@ -223,7 +223,25 @@
       </div>
       <!-- final card_3 -->
     </div>
-
+<!-- Modal -->
+<div class="modal fade" id="siteModal" tabindex="-1"role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Título Modal</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+    <div class="modal-body">
+      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+    </div>
+  </div>
+  </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
